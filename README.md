@@ -7,7 +7,7 @@ The original dataset includes pre-drill forecasts and post-drill results of pros
 
 
 Here you can see how to use the codes to generate attribute diagrams and verification measures:
-
+a. 
 1- Download the dataset from the following link:
 https://factpages.sodir.no/en/wellbore/Miscellaneous/PrognosisResults
 
@@ -24,7 +24,7 @@ df = data_cleaning.data_reshape(data)
 
 import attribute_subplots
 
-# use your desired year period
+use your desired year period
 years = [1990, 2022]
 attribute_subplots.attribute_diagram(df, years)
 
@@ -47,7 +47,7 @@ df_npd = map_npd.map_npd(df)
 
 import attribute_npd_subplots
 
-# use your desired year period
+use your desired year period
 years = [1990, 2022]
 attribute_npd_subplots.attribute_diagram(df_npd, years)
 
