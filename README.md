@@ -24,7 +24,7 @@ Here you can see how to use the codes to generate attribute diagrams and verific
     use your desired year period
     years = [1990, 2022]
     attribute_subplots.attribute_diagram(df, years)
-![GitPlot](attribute_diagram.png)  
+
 # Attribute diagram for NPD regions:
   ### For NPD regions (North, Norwegian, and Barent sea), firstly we need to map plays to their region.
 
