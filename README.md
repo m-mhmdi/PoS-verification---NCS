@@ -7,7 +7,7 @@ The original dataset includes pre-drill forecasts and post-drill results of pros
 
 
 Here you can see how to use the codes to generate attribute diagrams and verification measures:
-a. 
+1. 
 1- Download the dataset from the following link:
 https://factpages.sodir.no/en/wellbore/Miscellaneous/PrognosisResults
 
@@ -31,7 +31,7 @@ attribute_subplots.attribute_diagram(df, years)
 
 
 ############################################################################################################################
-
+2. 
 For NPD regions (North, Norwegian, and Barent sea), firstly we need to map plays to their region.
 
 1 - Repeat step 1 and 2 as above.
@@ -52,7 +52,7 @@ years = [1990, 2022]
 attribute_npd_subplots.attribute_diagram(df_npd, years)
 
 ############################################################################################################################
-
+3.
 For Main reasons for exploration failure across the North Sea, Norwegian Sea, and Barents Sea:
 
 1 - Repeat step 1 as above.
